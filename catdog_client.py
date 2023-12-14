@@ -43,21 +43,7 @@ def predict():
         img = img.resize(image_size)
 
         devolver = predecir(img)
-        print(devolver,999)
-        #img = keras.utils.load_img(img, target_size=image_size)
-  
-        #plt.imshow(img)
-
-        #img_array = keras.utils.img_to_array(img)
-#
-        #img_array = K.expand_dims(img_array, 0)
-        #predictions = model.predict(img_array)
-        #score = float(K.sigmoid(predictions[0][0]))
-#
-        #resultado = (f"This image is {100 * (1 - score):.2f}% Carla and {100 * score:.2f}% Christian.")
-        #print(resultado)
-        #print(f"This image is {100 * (1 - score):.2f}% Carla and {100 * score:.2f}% Christian.")
-
+        
         return devolver 
     
 sigmoid = (
