@@ -60,7 +60,6 @@ def predecir(imagen):
     img = np.expand_dims(img_array, 0).tolist()
     predict_request = json.dumps({'instances': img })
 
-    # Send few actual requests and report average latency.
     total_time = 0
     num_requests = 1
     index = 0
