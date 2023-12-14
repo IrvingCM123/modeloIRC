@@ -19,9 +19,6 @@ import io
 app = Flask(__name__)
 CORS(app)
 
-modeldir = "modelo/intento1/"
-model = load_model(modeldir)
-
 image_size = (180, 180)
 batch_size = 128
 
