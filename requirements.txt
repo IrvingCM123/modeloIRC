@@ -4,3 +4,4 @@ flask
 Pillow
 Image
 requests
+flask_cors
